@@ -1,0 +1,217 @@
+/* Section */
+.stack-section {
+  position: relative;
+  padding: 6rem 1rem;
+}
+
+.grid-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+}
+
+/* Container */
+.stack-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* Header */
+.stack-header {
+  max-width: 600px;
+  margin-bottom: 3rem;
+}
+
+.stack-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(1, 222, 16, 0.1);
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-family: monospace;
+  color: #01de10;
+  margin-bottom: 1rem;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #01de10;
+  border-radius: 50%;
+}
+
+.stack-title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #01de10, #00ffcc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stack-subtitle {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Filters */
+.stack-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 2.5rem;
+}
+
+.filter-btn {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  color: white;
+  border-color: rgba(1, 222, 16, 0.3);
+}
+
+.filter-btn.active {
+  background: #01de10;
+  color: black;
+  box-shadow: 0 0 20px rgba(1, 222, 16, 0.4);
+}
+
+/* Grid */
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .stack-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .stack-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .stack-grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+/* Card */
+.stack-card {
+  position: relative;
+  padding: 1.25rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.stack-card:hover {
+  transform: translateY(-4px);
+  border: 1px solid rgba(1, 222, 16, 0.4);
+}
+
+/* Glow */
+.stack-glow {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.stack-card:hover .stack-glow {
+  opacity: 0.2;
+}
+
+/* Icon */
+.stack-icon {
+  width: 48px;
+  height: 48px;
+  margin: auto;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 1px solid;
+  margin-bottom: 10px;
+}
+
+/* Info */
+.stack-name {
+  color: white;
+  font-size: 0.9rem;
+}
+
+.stack-category {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.stack-logo{
+  width: 3rem;
+  height: 3rem;
+  border: 1rem;
+}
+
+/* Marquee */
+.stack-marquee {
+  margin-top: 4rem;
+  overflow: hidden;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1rem 0;
+}
+
+.marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+.marquee-item {
+  margin: 0 2rem;
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.3);
+  transition: 0.3s;
+}
+
+.marquee-item:hover {
+  color: #01de10;
+}
+
+.divider {
+  color: #01de10;
+  margin: 0 1rem;
+}
+
+/* Animation */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}

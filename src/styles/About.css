@@ -1,0 +1,286 @@
+.about-section {
+  position: relative;
+  padding: 6rem 1rem;
+  overflow: hidden;
+}
+
+.about-blur-bg {
+  position: absolute;
+  top: 0;
+  left: 33%;
+  width: 500px;
+  height: 500px;
+  background: rgba(1, 222, 16, 0.05);
+  filter: blur(120px);
+  border-radius: 50%;
+}
+
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+/* Header */
+.about-header {
+  margin-bottom: 4rem;
+}
+
+.about-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-family: monospace;
+  color: #01de10;
+  background: rgba(255, 255, 255, 0.05);
+  margin-bottom: 1rem;
+}
+
+.about-badge .dot {
+  width: 6px;
+  height: 6px;
+  background: #01de10;
+  border-radius: 50%;
+}
+
+.about-main-content {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+.about-text {
+  max-width: 700px;
+}
+
+.about-image {
+  position: relative;
+}
+
+/* Keep the wrapper simple, no overflow or border-radius here */
+.about-image-wrapper {
+  position: relative;
+  width: 300px; /* Image size */
+  height: 300px; /* Image size */
+  border-radius: 50%;
+}
+
+/* Now apply border-radius directly to the image */
+.about-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  z-index: 1;
+  position: relative;
+  border: 3px solid #00ffb2; /* Border color around the image */
+}
+
+/* Move the border-outline outside the image-wrapper */
+.border-outline {
+  position: absolute;
+  top: -5px; /* Adjust the position around the image */
+  left: 40px; /* Same here to ensure it covers the image properly */
+  width: 310px; /* Make sure it covers the image size */
+  height: 310px; /* Same as width to keep it square */
+  border: 4px solid #01de10; /* The color of the border */
+  z-index: 0; /* Ensure it stays behind the image */
+  box-shadow: 0 4px 12px rgba(100, 255, 218, 0.4); /* Optional glow effect */
+  transform: scale(1.1); /* Slight scaling to add depth */
+}
+
+
+.about-title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.text-gradient-green {
+  background: linear-gradient(to right, #01de10, #00ffb2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.about-description {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.6;
+}
+
+/* Stats */
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 4rem;
+}
+
+@media (min-width: 1024px) {
+  .about-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.stat-card {
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  transition: 0.3s;
+}
+
+.stat-card:hover {
+  border: 1px solid rgba(1, 222, 16, 0.3);
+}
+
+.stat-value {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(to right, #01de10, #00ffb2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* Skills */
+.skills-grid {
+  display: grid;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.skill-card {
+  position: relative;
+  padding: 2rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.04);
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  border: 1px solid rgba(1, 222, 16, 0.3);
+}
+
+.skill-glow {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 150px;
+  height: 150px;
+  background: rgba(1, 222, 16, 0.1);
+  filter: blur(60px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.skill-card:hover .skill-glow {
+  opacity: 1;
+}
+
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+  color: white;
+};
+
+
+.skill-title-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skill-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    to bottom right,
+    rgba(78, 240, 89, 0.448),
+    rgba(129, 31, 129, 0.754)
+  );
+  color: white;
+};
+
+.skill-header h3 {
+  color: white;
+}
+
+.skill-index {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: monospace;
+}
+
+/* Skill list */
+.skill-item {
+  margin-bottom: 12px;
+}
+
+.skill-top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.skill-top span {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.skill-percent {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.skill-bar {
+  height: 4px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.skill-progress {
+  height: 100%;
+  background: linear-gradient(to right, #01de10, #00ffb2);
+  border-radius: 999px;
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .about-main-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-text {
+    flex: 2;
+  }
+
+  .about-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,35 @@
+.cursor-glow {
+  position: fixed;
+  z-index: 1;
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+
+  /* Glow effect */
+  background: radial-gradient(
+    circle,
+    rgba(1, 222, 16, 0.08) 0%,
+    transparent 60%
+  );
+
+  /* Hidden by default */
+  opacity: 0;
+
+  /* Smooth fade */
+  transition: opacity 0.3s ease;
+
+  /* Hide on small screens */
+  display: none;
+}
+
+/* Show on medium screens and above */
+@media (min-width: 768px) {
+  .cursor-glow {
+    display: block;
+  }
+}
+
+/* Visible state */
+.cursor-glow.visible {
+  opacity: 1;
+}
