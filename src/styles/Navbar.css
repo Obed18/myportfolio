@@ -59,13 +59,13 @@
   position: relative;
 }
 
-.logo-glow {
+/* .logo-glow {
   position: absolute;
   inset: 0;
   background: #01de10;
   filter: blur(20px);
   opacity: 0.4;
-}
+} */
 
 .logo-text {
   display: none;

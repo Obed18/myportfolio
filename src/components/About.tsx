@@ -49,7 +49,7 @@ I’m particularly driven by opportunities to create solutions that empower comm
         <div className="about-image">
           <div
             className="about-image-wrapper">
-            <img src="/Obed.jpeg" alt="Obed" />
+            <img src="/Obed2.jpg" alt="Obed" />
             <div className="border-outline" />
           </div>
         </div>

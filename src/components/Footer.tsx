@@ -77,7 +77,7 @@ const handleSubscribe = async (e: React.FormEvent<HTMLFormElement>) => {
           {/* Left */}
           <div className="footer-left">
             <div className="footer-brand">
-              <img src="/toa-logo.png" className="logo-image" alt="Logo" />
+              <img src="/icon.png" className="logo-image" alt="Logo" />
               <div>
                 <div className="footer-title">TheObed.Avenue</div>
                 <div className="footer-version">v2.4.0 — 2026</div>

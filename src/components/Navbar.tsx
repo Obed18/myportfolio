@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <button onClick={() => go("#hero")} className="logo">
             <div className="logo-box">
-              <img src="/toa-logo.png" className="logo-image" alt="Logo" />
+              <img src="/icon.png" className="logo-image" alt="Logo" />
               <div className="logo-glow" />
             </div>
             <div className="logo-text">
