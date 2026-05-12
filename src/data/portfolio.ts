@@ -53,6 +53,54 @@ export const projects = [
     isPublic: true,
   },
   {
+    id: "addiesafrique",
+    name: "Addie's Afrique Foundation",
+    tagline: "Official Website",
+    problem:
+      "Low online and digital precence for Addie's Afrique Foundation.",
+    solution:
+      "An official foundation website to digitalize  some of the process of the foundation including, online digital presence, fundraising & donations as well as Foundation related initiatives.",
+    role: "Full-Stack Engineer",
+    tech: ["React", "HTML", "CSS", "Node.js", "Supabase", "Paystack",],
+    features: [
+      "Initiatives",
+      "Mission & Vision",
+      "Fund Raising & Donations",
+      "Training Programs",
+    ],
+    image:
+      "/projects/AAF.png",
+    live: "https://addiesafriquefoundation.org/",
+    github: "#",
+    year: "2025",
+    category: "Social Network",
+    isPublic: true,
+  },
+  {
+    id: "ncl",
+    name: "NCL Courier Service",
+    tagline: "Courier Service Website",
+    problem:
+      "Companies needed a reliable courier service with real-time tracking and seamless booking.",
+    solution:
+      "A modern web platform for booking, tracking, and managing courier deliveries with a focus on user experience and operational efficiency.",
+    role: "Full-Stack Engineer & Designer",
+    tech: ["React.js", "JavaScript", "Framer Motion", "Supabase", "SQL",],
+    features: [
+      "Online booking",
+      "Order tracking",
+      "Delivery management",
+      "Maps",
+    ],
+    image:
+      "/projects/NCL.png",
+    live: "https://ncl.com/",
+    github: "#",
+    year: "2025",
+    category: "Courier Service Site",
+    isPublic: false,
+  },
+  {
     id: "nexagrowth",
     name: "NexaGrowth",
     tagline: "Agency Website",
@@ -60,13 +108,13 @@ export const projects = [
       "Growth agencies needed a premium web presence that converts visitors into qualified leads.",
     solution:
       "A high-performance marketing site with scroll-driven storytelling, case studies, and an integrated CRM funnel.",
-    role: "Founding Engineer & Designer",
+    role: "Lead Full-Stack Engineer & Designer",
     tech: ["Next.js", "TypeScript", "Framer Motion", "Sanity CMS"],
     features: [
-      "CMS integration",
-      "Lead capture flows",
-      "A/B testing",
-      "100 Lighthouse score",
+      "Landing Page",
+      "Booking System",
+      "Work Exhibition",
+      "Contact Page",
     ],
     image:
       "/projects/NGA.png",
@@ -84,13 +132,13 @@ export const projects = [
       "Despite its immense creativity, African fashion remains underrepresented globally due to limited access to markets, exposure, and digital platforms for showcasing talent.",
     solution:
       "X-STATE FASHION is a revolutionary platform that celebrates African creativity through fashion, storytelling, and cultural exchange.",
-    role: "Technical Lead",
-    tech: ["React", "Node.js"],
+    role: "Web Developer",
+    tech: ["React", "JavaScript", "Node.js", "Framer Motion"],
     features: [
-      "Ticket marketplace",
-      "QR check-in",
-      "Analytics dashboard",
-      "Mobile companion",
+      "Landing page",
+      "Work Exhibition",
+      "Event Page",
+      "Responsive Design",
     ],
     image:
       "/projects/xstate.png",
@@ -108,8 +156,8 @@ export const projects = [
       "Local retailers needed a white-label mobile commerce solution with low friction.",
     solution:
       "A React web app template with headless commerce backend and instant storefront deployment.",
-    role: "Mobile Engineer",
-    tech: ["React", "Nodejs", "Supabase", "Paystack"],
+    role: "Lead Full-Stack Engineer & Designer",
+    tech: ["React", "React Native", "Nodejs", "Supabase", "Paystack"],
     features: [
       "Buy, Sell and Earn",
       "Simple UI",

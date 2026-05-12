@@ -234,8 +234,9 @@
   list-style: none;
   display: flex;
   font-size: 1rem;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   text-align: left;
+  white-space: nowrap;
 }
 @media (max-width: 768px) {
   .hero-bottom-list ul li {
@@ -270,4 +271,17 @@
   font-size: 1.5rem;
   font-weight: bolder;
   margin-left: 0.5rem;
+}
+@media (max-width: 900px) {
+  .hero-grid {
+    display: flex;
+    flex-direction: column;
+  }
+.hero-title {
+  font-size: 2rem;
+  font-weight: 800;
+}
+.floating-icon {
+  display: none;
+}
 }
