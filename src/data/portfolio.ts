@@ -1,5 +1,62 @@
 export const projects = [
   {
+    id: "afristar-connect",
+    name: "AfriStar Connect",
+    tagline: "Official Website",
+    problem:
+      "Access to quality dermatological care is limited in many regions, especially in rural areas.",
+    solution:
+      "Connecting verified African entrepreneurs with investors worldwide through trusted, AI-powered discovery and investment matching.",
+    role: "Lead Fullstack Engineer",
+    tech: [
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "Supabase",
+    ],
+    features: [
+      "Pitch deck showcase",
+      "Investor matching",
+      "AI-powered recommendations",
+    ],
+    image:
+      "/projects/afristar.png",
+    live: "https://afristarconnect.netlify.app/",
+    github: "https://github.com/Obed18/afristarconnect.git",
+    year: "2026",
+    category: "Web App",
+    isPublic: true,
+  },
+  {
+    id: "apparel-space",
+    name: "ApparelSpace",
+    tagline: "E-commerce Platform",
+    problem:
+      "Local retailers needed a white-label mobile commerce solution with low friction.",
+    solution:
+      "A React web app template with headless commerce backend and instant storefront deployment.",
+    role: "Lead Fullstack Engineer",
+    tech: [
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "Supabase",
+      "Paystack",
+    ],
+    features: [
+      "E-commerce",
+      "Buy, Sell and Earn",
+      "Simple UI",
+    ],
+    image:
+      "/projects/apparelspace.png",
+    live: "https://apparelspace.netlify.app/",
+    github: "https://github.com/Obed18/apparel-space.git",
+    year: "2026",
+    category: "Web App",
+    isPublic: true,
+  },
+  {
     id: "xderma",
     name: "Xderma",
     tagline: "Dermatology App",
@@ -23,10 +80,39 @@ export const projects = [
     image:
       "/projects/Xderma.png",
     live: "#",
-    github: "#",
+    github: "https://github.com/Obed18/Xderma.git",
     year: "2024",
     category: "Mobile App",
     isPublic: false,
+  },
+  {
+    id: "clue-code",
+    name: "ClueCode",
+    tagline: "Official Website",
+    problem:
+      "Official Website for ClueCode",
+    solution:
+      "A React web app ro showcase all works and details for ClueCode.",
+    role: "Lead Fullstack Engineer",
+    tech: [
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "Supabase",
+      "Paystack",
+    ],
+    features: [
+      "Company Website",
+      "Portfolio",
+      "Simple UI",
+    ],
+    image:
+      "/projects/cluecode.png",
+    live: "https://cluecode.netlify.app/",
+    github: "https://github.com/Obed18/cluecode.git",
+    year: "2026",
+    category: "Web App",
+    isPublic: true,
   },
   {
     id: "alumni",
@@ -79,12 +165,12 @@ export const projects = [
   {
     id: "ncl",
     name: "NCL Courier Service",
-    tagline: "Courier Service Website",
+    tagline: "Courier",
     problem:
       "Companies needed a reliable courier service with real-time tracking and seamless booking.",
     solution:
       "A modern web platform for booking, tracking, and managing courier deliveries with a focus on user experience and operational efficiency.",
-    role: "Full-Stack Engineer & Designer",
+    role: "Full-Stack Engineer",
     tech: ["React.js", "JavaScript", "Framer Motion", "Supabase", "SQL",],
     features: [
       "Online booking",
@@ -108,7 +194,7 @@ export const projects = [
       "Growth agencies needed a premium web presence that converts visitors into qualified leads.",
     solution:
       "A high-performance marketing site with scroll-driven storytelling, case studies, and an integrated CRM funnel.",
-    role: "Lead Full-Stack Engineer & Designer",
+    role: "Lead Full-Stack Engineer",
     tech: ["Next.js", "TypeScript", "Framer Motion", "Sanity CMS"],
     features: [
       "Landing Page",
@@ -119,10 +205,10 @@ export const projects = [
     image:
       "/projects/NGA.png",
     live: "https://nexagrowthafrica.com/",
-    github: "#",
+    github: "https://github.com/Obed18/nexagrowthafrica.git",
     year: "2025",
     category: "Marketing Site",
-    isPublic: false,
+    isPublic: true,
   },
   {
     id: "xstate",
@@ -156,7 +242,7 @@ export const projects = [
       "Local retailers needed a white-label mobile commerce solution with low friction.",
     solution:
       "A React web app template with headless commerce backend and instant storefront deployment.",
-    role: "Lead Full-Stack Engineer & Designer",
+    role: "Lead Full-Stack Engineer",
     tech: ["React", "React Native", "Nodejs", "Supabase", "Paystack"],
     features: [
       "Buy, Sell and Earn",
@@ -170,6 +256,35 @@ export const projects = [
     github: "#",
     year: "2025",
     category: "Website",
+  },
+  {
+    id: "sam-pos",
+    name: "Mr. Sam POS",
+    tagline: "POS System",
+    problem:
+      "Trouble processing large payments by clients.",
+    solution:
+      "POS system for seamless transaction processing with real-time inventory management and comprehensive analytics.",
+    role: "Lead Fullstack Engineer",
+    tech: [
+      "React Native",
+      "TypeScript",
+      "Node.js",
+      "Supabase",
+    ],
+    features: [
+      "Payment processing",
+      "Inventory management",
+      "Sales analytics",
+      "Multi-location support",
+    ],
+    image:
+      "/projects/sampos.png",
+    live: "https://mrsampos.netlify.app/",
+    github: "https://github.com/Obed18/SAM-POS.git",
+    year: "2026",
+    category: "Web App",
+    isPublic: true,
   },
   {
     id: "movato",

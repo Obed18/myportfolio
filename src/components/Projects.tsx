@@ -77,7 +77,7 @@ const Projects: React.FC = () => {
             <article
               key={p.id}
               className="project-card"
-              onClick={() => setActive(p)}
+              // onClick={() => setActive(p)}
             >
               <div className="project-image-wrapper">
                 <img src={p.image} alt={p.name} />
@@ -115,6 +115,7 @@ const Projects: React.FC = () => {
                   <div className="project-links">
                     <a
                       href={p.github}
+                      target="_blank"
                       onClick={(e) => {
                         e.stopPropagation();
 
@@ -126,7 +127,7 @@ const Projects: React.FC = () => {
                     >
                       <FaGithub size={16} />
                     </a>
-                    <a href={p.live} onClick={(e) => e.stopPropagation()}>
+                    <a target="_blank" href={p.live} onClick={(e) => e.stopPropagation()}>
                       <ExternalLink size={16} />
                     </a>
                   </div>

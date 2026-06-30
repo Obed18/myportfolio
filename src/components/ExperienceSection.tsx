@@ -13,6 +13,30 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
+    company: "AfriStar Connect",
+    role: "Software Engineer",
+    duration: "2026",
+    location: "Remote",
+    image: "/logos/afristar.png",
+  },
+  {
+    id: 2,
+    company: "ApparelSpace",
+    role: "Web Developer",
+    duration: "2026",
+    location: "Remote",
+    image: "/logos/apparelspace.png",
+  },
+  {
+    id: 3,
+    company: "CLICK Project",
+    role: "Lead Instructor",
+    duration: "2026",
+    location: "Hybrid",
+    image: "/logos/click.png",
+  },
+  {
+    id: 4,
     company: "ClueCode",
     role: "Founder & Software Engineer",
     duration: "2026",
@@ -20,7 +44,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/ClueCode.png",
   },
   {
-    id: 2,
+    id: 5,
     company: "RAY Healthcare",
     role: "Web Developer",
     duration: "2026",
@@ -28,7 +52,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/RAY.png",
   },
   {
-    id: 3,
+    id: 6,
     company: "Traved Consult",
     role: "Software Engineer",
     duration: "2026",
@@ -36,7 +60,15 @@ const experiences: ExperienceItem[] = [
     image: "/logos/traved.png",
   },
   {
-    id: 4,
+    id: 7,
+    company: "NCL Courier Service",
+    role: "Full-Stack Engineer",
+    duration: "2025",
+    location: "Remote",
+    image: "/logos/ncl.png",
+  },
+  {
+    id: 8,
     company: "NexaGrowth Africa",
     role: "Tech Lead & Software Engineer",
     duration: "2025",
@@ -44,7 +76,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/Nexa.png",
   },
   {
-    id: 5,
+    id: 9,
     company: "Giant-Merce",
     role: "CO-Founder & Chief Technology Officer",
     duration: "2025",
@@ -52,7 +84,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/GM.png",
   },
   {
-    id: 6,
+    id: 10,
     company: "Addie's Afrique Foundation",
     role: "Chief Technology Officer",
     duration: "2024",
@@ -60,7 +92,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/FLOGO.jpg",
   },
   {
-    id: 7,
+    id: 11,
     company: "Heidelberg Materials Digital Hub, Ghana",
     role: "Intern Web Developer",
     duration: "2023",
@@ -68,7 +100,7 @@ const experiences: ExperienceItem[] = [
     image: "/logos/dh.png",
   },
   {
-    id: 8,
+    id: 12,
     company: "Explore Ghana",
     role: "Web & Mobile App Developer",
     duration: "2023",

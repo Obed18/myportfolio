@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
   return (
     <section id="hero" className="hero">
       {/* Floating icons */}
-      {floatIcons.map(({ Icon, className, color }, i) => (
+      {/* {floatIcons.map(({ Icon, className, color }, i) => (
         <div key={i} className={`floating-icon ${className}`}>
           <div
             className="icon-box"
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
           </div>
         </div>
       ))}
-
+ */}
       <div className="hero-container">
         <div className="hero-grid">
           {/* LEFT */}
