@@ -328,7 +328,6 @@ return (
         >
         {digitalUnique.map((p) => {
             const isFlyer = p.type === "flyer";
-            const isUI = p.name === "UI Designs";
 
             return (
             <motion.div
@@ -346,7 +345,7 @@ return (
                     setLightbox({ open: true, imageSrc: p.imageSrc, alt: p.name });
                     return;
                     }
-                    if (isUI && p.link) {
+                    if (p.link) {
                     window.open(p.link, "_blank", "noopener,noreferrer");
                     }
                 }}

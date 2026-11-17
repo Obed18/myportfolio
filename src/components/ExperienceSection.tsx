@@ -13,19 +13,19 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     id: 1,
-    company: "AfriStar Connect",
-    role: "Software Engineer",
+    company: "Ghana Civil Aviation Authority (GCAA)",
+    role: "National Service Personnel",
     duration: "2026",
-    location: "Remote",
-    image: "/logos/afristar.png",
+    location: "On-site",
+    image: "/logos/gcaa.png",
   },
   {
     id: 2,
-    company: "ApparelSpace",
-    role: "Web Developer",
+    company: "OpenCare Global Health Initiative Inc.",
+    role: "Software Engineer",
     duration: "2026",
     location: "Remote",
-    image: "/logos/apparelspace.png",
+    image: "/logos/oc.png",
   },
   {
     id: 3,

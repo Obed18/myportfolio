@@ -11,6 +11,7 @@ import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import Contact from "../components/Contact";
 import CursorGlow from "../components/CursorGlow";
+import SocialImpact from "../components/SocialImpact";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
         <PortfolioCard />
         <TechStack />
         <ExperienceSection />
+        <SocialImpact />
         <Services />
         <Testimonials />
         <Contact />

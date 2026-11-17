@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Home from "./pages/Home";
 import SplashScreen from "./pages/SplashScreen";
+import ImpactPage from "./pages/ImpactPage";
+import ScrollToTop from "./components/ScrollToTop";
 import "./styles/global.css";
 
 const App: React.FC = () => {
@@ -9,6 +11,7 @@ const App: React.FC = () => {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"
@@ -21,6 +24,7 @@ const App: React.FC = () => {
           }
         />
         <Route path="/home" element={<Home />} />
+        <Route path="/impact/:slug" element={<ImpactPage />} />
       </Routes>
     </Router>
   );

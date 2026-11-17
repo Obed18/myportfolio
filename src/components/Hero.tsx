@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
             </h1>
 
             <div className="hero-role">
-              <span>Building </span>
+              <span>The </span>
               <span className="typed">{display}</span>
             </div>
 

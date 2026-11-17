@@ -16,6 +16,7 @@ const navLinks: NavLink[] = [
   { label: "Stack", href: "#stack" },
   { label: "Experience", href: "#experience" },
   { label: "Services", href: "#services" },
+  { label: "CSR", href: "#social-impact" },
   { label: "Contact", href: "#contact" },
 ];
 
