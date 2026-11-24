@@ -581,25 +581,25 @@
   }
 
   .impact-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 25px 12px;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
   }
 
   .impact-grid-image-wrapper {
-    height: 155px;
+    height: 245px;
     border-radius: 8px;
   }
 
   .impact-grid-details h3 {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .impact-grid-details p {
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .impact-grid-location {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .impact-footer {
@@ -626,7 +626,7 @@
   }
 
   .impact-grid-image-wrapper {
-    height: 130px;
+    height: 210px;
   }
 
   .impact-filters {
